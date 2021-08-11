@@ -16,7 +16,7 @@
     "@types/bcrypt-nodejs": "0.0.31"
   },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
