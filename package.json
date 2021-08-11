@@ -12,7 +12,9 @@
     "nodemon": "^2.0.12",
     "path": "^0.12.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/bcrypt-nodejs": "0.0.31"
+  },
   "scripts": {
     "start": "nodemon index.js"
   },
