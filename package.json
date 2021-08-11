@@ -14,8 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon index.js",
-    "heroku-postbuild": "npm run build"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
