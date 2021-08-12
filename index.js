@@ -11,8 +11,7 @@ const path = require("path");
 
 dotenv.config();
 app.use(express.json());
-// app.use("/images", express.static(path.join(__dirname, "/images")));
-app.use("/images", express.static("/images"));
+app.use("/images", express.static(path.join(__dirname, "/images")));
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
@@ -50,6 +49,6 @@ app.use("/api/users", userRoute);
 app.use("/api/posts", postRoute);
 app.use("/api/categories", categoryRoute);
 
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT, () => {
   console.log("Backend is running.");
 });
