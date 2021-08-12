@@ -11,7 +11,6 @@ const path = require("path");
 
 dotenv.config();
 app.use(express.json());
-app.use("/images", express.static(path.join(__dirname, "/images")));
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
@@ -20,6 +19,7 @@ app.use(function (req, res, next) {
   );
   next();
 });
+app.use("/images", express.static(path.join(__dirname, "/images")));
 
 mongoose
   .connect(process.env.MONGO_URL, {
