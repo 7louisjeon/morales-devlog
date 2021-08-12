@@ -52,3 +52,13 @@ app.use("/api/categories", categoryRoute);
 app.listen(process.env.PORT || 5000, () => {
   console.log("Backend is running.");
 });
+
+app.use(express.static(path.join(__dirname, "../client/build")));
+
+app.get("/*", (req, res) => {
+  let url = path.join(__dirname, "../client/build", "index.html");
+  if (!url.startsWith("/app/")) {
+    url = url.substring(1);
+  }
+  res.sendFile(url);
+});
