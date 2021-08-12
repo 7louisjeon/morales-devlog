@@ -11,7 +11,8 @@ const path = require("path");
 
 dotenv.config();
 app.use(express.json());
-app.use("/images", express.static(path.join(__dirname, "/images")));
+// app.use("/images", express.static(path.join(__dirname, "/images")));
+app.use("/images", express.static("/images"));
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
