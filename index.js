@@ -11,11 +11,6 @@ const path = require("path");
 
 dotenv.config();
 
-app.use(express.static(path.join(__dirname, "../client/build")));
-app.get("*", function (req, res) {
-  res.sendFile(path.join(__dirname, "../client/build", "index.html"));
-});
-
 app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "/images")));
 app.use(function (req, res, next) {
