@@ -2,7 +2,7 @@
 
 ---
 
-This blog has been created with MERN stack.
+This blog has been created with MERN stack tools like MongoDB, Express, React and Node JS.
 
 Anyone can register, login, write posts with images and markdown texts.
 
