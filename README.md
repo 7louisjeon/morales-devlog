@@ -1,4 +1,4 @@
-## Morales's Devlog
+# Morales's Devlog
 
 ---
 
