@@ -16,7 +16,8 @@
     "@types/bcrypt-nodejs": "0.0.31"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
