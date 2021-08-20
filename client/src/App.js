@@ -1,6 +1,6 @@
 import "./App.css";
-import LeftBar from "./LeftBar";
-import RightPage from "./RightPage";
+import LeftBar from "./components/LeftBar";
+import RightPage from "./components/RightPage";
 import { BrowserRouter as Router, Switch } from "react-router-dom";
 
 function App() {
