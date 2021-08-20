@@ -544,6 +544,7 @@ button {
   height: 150vh;
   font: inherit;
   border: none;
+  caret-color: var(--text-main);
 }
 
 .right-bottom-content textarea:focus {
