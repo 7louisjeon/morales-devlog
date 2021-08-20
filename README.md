@@ -1,8 +1,8 @@
-## Morales's Devlog의 프론트엔드 repository에 오신것을 환영합니다.
+## Morales's Devlog의 repository에 오신것을 환영합니다.
 
 ---
 
-본 웹사이트의 프론트엔드는 Create-React-App, React Hooks, React Router, React ContextAPI 등을 활용하여 제작되었습니다.
+본 블로그 웹사이트는 create-react-app부터 시작하여 MERN스택을 활용하여 풀스택으로 제작되었습니다.
 
 검색창을 이용하여 계시글 검색 및 방향키로 검색창내 이동이 가능하며, 유저 등록 및 로그인을 통해 이미지 파일과 마크다운 텍스트를 포함한 계시글 작성이 가능합니다.
 
