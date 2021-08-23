@@ -387,6 +387,7 @@ button {
   width: max-content;
   flex: 1;
   border: none;
+  caret-color: var(--text-main);
 }
 
 .title input:focus {
