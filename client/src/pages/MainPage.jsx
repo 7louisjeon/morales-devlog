@@ -10,7 +10,7 @@ function MainPage({ posts, chapters }) {
           src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/285/spider_1f577-fe0f.png"
           alt="e"
         />{" "}
-        MORALES의 프론트엔드 개발 학습일지에 오신것을 환영합니다.
+        MORALES의 프론트엔드 개발 블로그에 오신 것을 환영합니다.
       </h1>
       <p>
         이 웹사이트는{" "}
