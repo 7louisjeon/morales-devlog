@@ -10,15 +10,16 @@ function MainPage({ posts, chapters }) {
           src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/285/spider_1f577-fe0f.png"
           alt="e"
         />{" "}
-        Welcome to my web dev blog.
+        MORALES의 프론트엔드 개발 학습일지에 오신것을 환영합니다.
       </h1>
       <p>
-        This website has been designed and created by{" "}
+        이 웹사이트는{" "}
         <a href="https://github.com/7louisjeon" target="_blank">
           @7louisjeon
-        </a>{" "}
-        for an academic purpose. Anyone can register, login and post markdown
-        texts and image files.
+        </a>
+        에 의해 디자인되고 제작되었습니다. 백엔드와 data fetching의 경우 유튜브
+        튜토리얼들을 참조하였습니다. 누구나 등록, 로그인을 하고 이미지와
+        마크다운 텍스트를 이용한 계시물을 작성할 수 있습니다.
       </p>
       <div className="right-bottom-content-bottom">
         {Object.entries(chapters).map((entry) => (
