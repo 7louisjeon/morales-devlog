@@ -17,8 +17,8 @@ function MainPage({ posts, chapters }) {
         <a href="https://github.com/7louisjeon" target="_blank">
           @7louisjeon
         </a>
-        에 의해 디자인되고 제작되었습니다. 누구나 가입, 로그인을 하고 이미지와
-        마크다운 텍스트를 이용한 계시물을 작성할 수 있습니다.
+        에 의해 MERN스택으로 디자인되고 제작되었습니다. 누구나 가입, 로그인을
+        하고 이미지와 마크다운 텍스트를 이용한 계시물을 작성할 수 있습니다.
       </p>
       <div className="right-bottom-content-bottom">
         {Object.entries(chapters).map((entry) => (
