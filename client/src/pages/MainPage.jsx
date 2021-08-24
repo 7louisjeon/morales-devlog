@@ -17,8 +17,7 @@ function MainPage({ posts, chapters }) {
         <a href="https://github.com/7louisjeon" target="_blank">
           @7louisjeon
         </a>
-        에 의해 디자인되고 제작되었습니다. 백엔드와 data fetching의 경우 유튜브
-        튜토리얼들을 참조하였습니다. 누구나 등록, 로그인을 하고 이미지와
+        에 의해 디자인되고 제작되었습니다. 누구나 가입, 로그인을 하고 이미지와
         마크다운 텍스트를 이용한 계시물을 작성할 수 있습니다.
       </p>
       <div className="right-bottom-content-bottom">
