@@ -11,6 +11,8 @@ import UserInfo from "../pages/UserInfo";
 import images from "../images/images";
 import MarkdownGuide from "./MarkdownGuide";
 import { axiosInstance } from "../config";
+import Inko from "inko";
+let inko = new Inko();
 
 function RightPage({ chapters }) {
   const { user, dispatch } = useContext(Context);
@@ -83,10 +85,13 @@ function RightPage({ chapters }) {
               type="text"
               onChange={(e) => {
                 e.preventDefault();
+                console.log(e.target.value);
                 setKeyword(e.target.value);
                 setFilteredPosts(
                   posts.filter((post) =>
-                    post.title.toLowerCase().includes(keyword.toLowerCase())
+                    inko
+                      .ko2en(post.title.toLowerCase())
+                      .includes(inko.ko2en(keyword.toLowerCase()))
                   )
                 );
               }}
