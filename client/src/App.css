@@ -562,7 +562,7 @@ button {
   display: flex;
   justify-content: stretch;
   flex-direction: column;
-  word-wrap: break-word;
+  overflow: hidden;
 }
 
 .postImg {
@@ -632,7 +632,6 @@ button {
   font: inherit;
   border: none;
   caret-color: var(--text-main);
-  word-wrap: break-word;
 }
 
 .right-bottom-content textarea:focus {
