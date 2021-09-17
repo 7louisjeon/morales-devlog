@@ -1,4 +1,4 @@
-<a href="https://morales-devlog.herokuapp.com/"># Morales' Devlog</a>
+# <a href="https://morales-devlog.herokuapp.com/">Morales' Devlog</a>
 
 ---
 
