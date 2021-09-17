@@ -1,4 +1,4 @@
-# <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/apple/285/spider_1f577-fe0f.png" alt="e"/> <a href="https://morales-devlog.herokuapp.com/">Morales' Devlog</a>
+# <a href="https://morales-devlog.herokuapp.com/">Morales' Devlog</a>
 
 ---
 
