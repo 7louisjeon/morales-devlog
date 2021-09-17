@@ -8,6 +8,6 @@ Morales's Devlog는 어떻게 하면 프론트엔드 학습 내용을 효과적�
 
 상단의 검색바는 영어 또는 한국어로 검색이 가능하며 내부에서 화살표 키 및 엔터키를 이용하여 네비게이션 및 계시물 열람이 가능합니다.
 
-<a href="https://morales-devlog.herokuapp.com/">블로그 바로가기<a/>
+<a href="https://morales-devlog.herokuapp.com/">바로가기<a/>
 ![devlog](https://user-images.githubusercontent.com/67190756/130057198-838480a7-1f65-45f7-bb3e-e0a4d1169464.png)
 
