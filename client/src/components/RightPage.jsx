@@ -85,7 +85,6 @@ function RightPage({ chapters }) {
               type="text"
               onChange={(e) => {
                 e.preventDefault();
-                console.log(e.target.value);
                 setKeyword(e.target.value);
                 setFilteredPosts(
                   posts.filter((post) =>

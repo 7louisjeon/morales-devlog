@@ -1,15 +1,11 @@
 import React from "react";
 import LeftBarItem from "./LeftBarItem";
+import { NavLink } from "react-router-dom";
 
 function LeftBar({ chapters }) {
   return (
     <div className="left-bar">
-      <div
-        onClick={(e) => {
-          e.preventDefault();
-          window.location.replace("/");
-        }}
-      >
+      <NavLink to={"/"}>
         <div className="left-bar-title">
           <h2>
             <img
@@ -20,7 +16,7 @@ function LeftBar({ chapters }) {
             <div className="titlePoint">:</div>LOG
           </h2>
         </div>
-      </div>
+      </NavLink>
       {Object.entries(chapters).map((entry) => (
         <LeftBarItem key={entry[0]} imageName={entry[0]} text={entry[1]} />
       ))}

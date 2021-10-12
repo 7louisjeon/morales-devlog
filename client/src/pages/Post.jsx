@@ -6,7 +6,6 @@ import images from "../images/images";
 import { Link } from "react-router-dom";
 import { Context } from "../context/Context";
 import { axiosInstance } from "../config";
-
 function Post({ chapters, updateMode, setUpdateMode }) {
   const location = useLocation();
   const path = location.pathname.split("/")[2];
