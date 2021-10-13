@@ -58,7 +58,7 @@ function RightPage({ chapters }) {
         <div className="right-upper-inner">
           {user ? (
             <div className="right-upper-left">
-              <NavLink to="/userinfo" className="right-upper-write userIcon">
+              <NavLink to="/" className="right-upper-write userIcon">
                 <span>
                   <img
                     src={
@@ -69,11 +69,18 @@ function RightPage({ chapters }) {
                     alt="alt"
                   ></img>
                 </span>
-                <p>{user.username}</p>
+                <p id="username">{user.username}</p>
               </NavLink>
             </div>
           ) : (
-            ""
+            <div className="right-upper-left">
+              <NavLink to="/login" className="right-upper-write userIcon">
+                <span>
+                  <img src={images.alien} alt="alt"></img>
+                </span>
+                <p id="username">Visitor</p>
+              </NavLink>
+            </div>
           )}
           <div className="searchBar-out">
             <button type="submit" className="searchButton">
