@@ -14,8 +14,8 @@ function MainPage({ posts, chapters }) {
       </h1>
       <p>
         본 웹사이트는{" "}
-        <a href="https://github.com/7louisjeon" target="_blank">
-          @7louisjeon
+        <a href="https://github.com/louisjeon" target="_blank" rel="noreferrer">
+          @louisjeon
         </a>
         에 의해 MERN스택으로 제작되었습니다. 누구나 가입, 로그인을 하고 이미지와
         마크다운 텍스트를 이용한 계시물을 작성할 수 있습니다.
