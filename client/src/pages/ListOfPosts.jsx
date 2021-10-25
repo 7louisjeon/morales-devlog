@@ -9,7 +9,7 @@ function ListOfPosts({ subject, posts, chapters }) {
   return (
     <div className="list-of-posts right-bottom-content">
       <h1>
-        <img src={images[foundChapter[0]]} />
+        <img src={images[foundChapter[0]]} alt={foundChapter[1]} />
         &nbsp;
         {foundChapter[1]}
       </h1>

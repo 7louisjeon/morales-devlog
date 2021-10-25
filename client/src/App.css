@@ -616,6 +616,11 @@ button {
   margin: 15px;
 }
 
+.left-bar-item-inner img {
+  height: 30px;
+  width: 30px;
+}
+
 .hidden {
   display: none;
 }

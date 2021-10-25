@@ -13,6 +13,10 @@ function MainPage({ posts, chapters }) {
         MORALES의 개발 블로그에 오신 것을 환영합니다.
       </h1>
       <p>
+        ▶ 최근 업데이트(21.10.25): Redux, Mob X, Graph QL, Next JS, Svelte
+        탭들을 추가하였습니다.
+      </p>
+      <p>
         본 웹사이트는{" "}
         <a href="https://github.com/louisjeon" target="_blank" rel="noreferrer">
           @louisjeon

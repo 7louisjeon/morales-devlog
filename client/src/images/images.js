@@ -17,6 +17,11 @@ import system from "./system.png";
 import database from "./database.png";
 import network from "./network.png";
 import os from "./os.png";
+import redux from "./redux.png";
+import mobx from "./mobx.png";
+import graphql from "./graphql.png";
+import nextjs from "./nextjs.png";
+import svelte from "./svelte.png";
 
 const images = {
   codingquestions,
@@ -30,7 +35,12 @@ const images = {
   nodejs,
   python,
   react,
+  redux,
   typescript,
+  mobx,
+  graphql,
+  nextjs,
+  svelte,
   alien,
   morales,
   spider,
