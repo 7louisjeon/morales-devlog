@@ -627,6 +627,7 @@ button {
 
 .dropdown-categories {
   position: absolute;
+  top: 60px;
   width: 450px;
   border: 1px solid crimson;
   border-radius: 10px;
@@ -651,6 +652,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 
 @media (max-width: 770px) {
@@ -660,9 +662,6 @@ button {
 
   .right-post-item .left-bar-item-inner > h2 {
     display: none;
-  }
-  .right-post-item .left-bar-item-inner > img {
-    height: 50px;
   }
 }
 
